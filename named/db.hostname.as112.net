@@ -1,0 +1,18 @@
+; db.hostname.as112.net
+;
+$TTL    1W
+@       SOA     server.example.net. admin.example.net. (
+                        1               ; serial number
+                        1W              ; refresh
+                        1M              ; retry
+                        1W              ; expire
+                        1W )            ; negative caching TTL
+;
+        NS      blackhole-1.iana.org.
+        NS      blackhole-2.iana.org.
+;
+        TXT     "Name of Facility or similar" "City, Country"
+        TXT     "See http://www.as112.net/ for more information."
+        TXT     "Unique IP: 203.0.113.1."
+;
+        LOC     45 25 0.000 N 75 42 0.000 W 80.00m 1m 10000m 10m

@@ -1,0 +1,20 @@
+; db.dd-empty
+;
+; Empty zone for Direct Delegation AS112 service.
+;
+$TTL    1W
+@  IN  SOA  prisoner.iana.org. hostmaster.root-servers.org. (
+                               1       ; serial number
+                               1W      ; refresh
+                               1M      ; retry
+                               1W      ; expire
+                               1W )    ; negative caching TTL
+;
+       NS     blackhole-1.iana.org.
+       NS     blackhole-2.iana.org.
+;
+; There should be no other resource records included in this zone.
+;
+; Records that relate to RFC 1918-numbered resources within the
+; site hosting this AS112 node should not be hosted on this
+; nameserver.
