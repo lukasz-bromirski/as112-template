@@ -2,15 +2,11 @@
 ;
 $TTL    1W
 @       SOA     server.example.net. admin.example.net. (
-                        1               ; serial number
-                        1W              ; refresh
-                        1M              ; retry
-                        1W              ; expire
-                        1W )            ; negative caching TTL
+                1 1W 1M 1W 1W );
 ;
         NS      blackhole.as112.arpa.
 ;
-        TXT     "Name of Facility or similar" "City, Country"
+        TXT     "AS112 <facility name>" "City, Country"
         TXT     "See http://www.as112.net/ for more information."
+        TXT     "Unique IP: <IPv4> and <IPv6>"
 ;
-        LOC     45 25 0.000 N 75 42 0.000 W 80.00m 1m 10000m 10m
