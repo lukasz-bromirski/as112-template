@@ -1,0 +1,6 @@
+$TTL 86400
+
+@	IN	SOA	blackhole.as112.arpa. noc.dns.icann.org. (
+			1 1W 1M 1W 1W )
+
+		NS	blackhole.as112.arpa.

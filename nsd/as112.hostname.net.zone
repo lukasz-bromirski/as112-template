@@ -1,0 +1,10 @@
+$TTL    1W
+@       SOA     server.example.net. admin.example.net. (
+                1 1W 1M 1W 1W );
+;
+        NS      blackhole-1.iana.org.
+        NS      blackhole-2.iana.org.
+;
+        TXT     "AS112 <facility name>" "City, Country"
+        TXT     "See http://www.as112.net/ for more information."
+        TXT     "Unique IP: <IPv4> and <IPv6>"

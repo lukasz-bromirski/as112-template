@@ -1,0 +1,7 @@
+$TTL 86400
+
+@	IN	SOA	prisoner.iana.org. hostmaster.root-servers.org. (
+			1 1W 1M 1W 1W )
+
+		NS	blackhole-1.iana.org.
+		NS	blackhole-2.iana.org.
