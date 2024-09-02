@@ -7,4 +7,5 @@ Based on [as112.net](https://as112.net/), [RFC 6305](https://www.rfc-editor.org/
 * [named](named/) - for [BIND](https://www.isc.org/bind/) 9.x
 * [bird](bird/) - for [BIRD](https://bird.network.cz/) 2.x
 * [nsd](nsd/) - for [NSD](https://www.nlnetlabs.nl/projects/nsd/about/) 4.x
+* [FRRouting](FRRouting/) - for [FRRouting](https://frrouting.org/)
 * [FreeBSD](FreeBSD/) - for [FreeBSD](https://www.freebsd.org/) 12.x-14.x (only cloned interface, and assumes you'd enable forwarding for IPv4 and IPv6 to get traffic across)
