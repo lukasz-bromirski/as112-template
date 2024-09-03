@@ -23,7 +23,7 @@ Based on [as112.net](https://as112.net/), [RFC 6305](https://www.rfc-editor.org/
 * [FreeBSD](FreeBSD/)
 
   for [FreeBSD](https://www.freebsd.org/) 12.x-14.x
-  configuration assumes you'll host AS112 service on loopback53 interface
-  and therefore there's also `sysctl.conf` proposal to allow forwarding of IPv4 and IPv6
+
+  configuration assumes you'll host AS112 service on loopback53 interface and therefore there's also `sysctl.conf` proposal to allow forwarding of IPv4 and IPv6
 
 
