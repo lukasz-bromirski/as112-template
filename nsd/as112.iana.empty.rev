@@ -1,3 +1,4 @@
+; default, empty zone file as per RFC
 $TTL 86400
 
 @	IN	SOA	prisoner.iana.org. hostmaster.root-servers.org. (

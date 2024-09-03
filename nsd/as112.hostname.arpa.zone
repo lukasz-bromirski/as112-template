@@ -1,9 +1,12 @@
+; default, empty zone file as per RFC
 $TTL    1W
+;		adjust names and email below to point to your servers
 @       SOA     server.example.net. admin.example.net. (
                 1 1W 1M 1W 1W );
 ;
         NS      blackhole.as112.arpa.
-;
+;		change below location details, and if you want to provide
+;		unique IP for diagnostics/stats
         TXT     "AS112 <facility name>" "City, Country"
         TXT     "See http://www.as112.net/ for more information."
         TXT     "Unique IP: <IPv4> and <IPv6>"

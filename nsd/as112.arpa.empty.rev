@@ -1,3 +1,4 @@
+; default, empty zone file as per RFC
 $TTL 86400
 
 @	IN	SOA	blackhole.as112.arpa. noc.dns.icann.org. (
