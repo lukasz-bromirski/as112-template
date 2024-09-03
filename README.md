@@ -1,5 +1,4 @@
-# AS 112
-## Configuration templates
+# AS 112 configuration templates
 
 Łukasz Bromirski
 
